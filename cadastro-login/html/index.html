@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-image">
+            <img src="" alt="Imagem">
+        </div>
+
+        <div class="form">
+            <h1>Cadastre-se</h1>
+            <form action="#">
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input type="tel" id="number" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="date">Data de nascimento</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirmar senha</label>
+                        <input type="password" id="confirmpassword" name="confirmpassword"
+                            placeholder="Digite sua senha novamente" required>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <label for="female">Feminino</label>
+                            <input type="radio" id="female" name="gender">
+                        </div>
+
+                        <div class="gender-input">
+                            <label for="male">Masculino</label>
+                            <input type="radio" id="male" name="gender">
+                        </div>
+
+                        <div class="gender-input">
+                            <label for="others">Outros</label>
+                            <input type="radio" id="others" name="gender">
+                        </div>
+
+                        <div class="gender-input">
+                            <label for="none">Prefiro não dizer</label>
+                            <input type="radio" id="none" name="gender">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit">Confirmar</button>
+                </div>
+            </form>
+
+            <div class="login-link">
+                <a href="login.html">Ir para a página de login</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
